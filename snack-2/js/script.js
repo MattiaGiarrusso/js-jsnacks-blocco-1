@@ -4,3 +4,11 @@
 // Creare la variabile somma di tutti i numeri inseriti dall'utente
 let numberSum = 0;
 
+// Creare un ciclo for
+for (let i=0; i<5; i++) {
+
+    // Chiedere all'utente 5 numeri
+    const userNumber= parseInt(prompt('Dammi un numero'));
+    console.log(userNumber);
+    
+}
