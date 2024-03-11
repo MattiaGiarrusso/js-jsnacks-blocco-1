@@ -15,7 +15,8 @@ for (let i=0; i<5; i++) {
         numberList.push(userNumber);
     }
         
-    
-
+    // Stampare la lista di nome
+    alert(numberList);
+    console.log(numberList);
 
 }
