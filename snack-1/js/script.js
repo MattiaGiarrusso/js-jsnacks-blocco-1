@@ -10,6 +10,12 @@ for (let i=0; i<5; i++) {
     const userNumber = prompt('Dammi un numero');
     console.log(userNumber)
 
+    // Inserire i 5 numeri nell'array se non sono presenti
+    if (!numberList.includes(userNumber)) {
+        numberList.push(userNumber);
+    }
+        
+    
 
 
 }
