@@ -10,5 +10,12 @@ for (let i=0; i<5; i++) {
     // Chiedere all'utente 5 numeri
     const userNumber= parseInt(prompt('Dammi un numero'));
     console.log(userNumber);
+
+    // Sommare tutti i numeri inseriti dall'utente
+    numberSum += userNumber;
     
 }
+
+// Stampare la somma totale dei numeri
+alert(numberSum);
+console.log(numberSum);
