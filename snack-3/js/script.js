@@ -6,4 +6,12 @@ const oddList = [];
 
 for (let i=0; i<6; i++) {
 
+    const userNumber = parseInt(prompt('Inserisci un numero'));
+    console.log(userNumber);
+
+    if (userNumber % 2 !== 0) {
+        oddList.push(userNumber);
+        console.log(oddList)
+    }
+
 }
